@@ -1,0 +1,24 @@
+h1, h2, h3 {
+    font-family:"Monotype Corsiva";
+    color:purple;
+}
+
+.class1 {
+color:red;
+font-size:18pt;
+font-family:"Times New Roman";
+}
+
+
+.class2 { 
+    color: yellow;
+    font-size: 20pt;
+    font-family:"Times New Roman";
+}
+
+.class3 {
+    color:green;
+    font-size: 22pt;
+    font-family: "Times New Roman";
+}
+

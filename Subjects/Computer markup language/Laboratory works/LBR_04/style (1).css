@@ -1,0 +1,155 @@
+
+.red, .green, .blue, .aqua, .purple, .yellow, .black {
+    padding: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.red {
+    border: 10px outset rgb(207, 41, 41);
+     /*селектор тега*/
+}
+
+.green {
+    border: 10px dashed rgb(34, 212, 43);
+
+}
+
+.blue {
+    border: 10px dotted rgb(27, 84, 227);
+   
+}
+
+.aqua {
+    border: 10px double rgb(27, 197, 227);
+   }
+
+.purple {
+    border: 10px groove rgb(180, 27, 227);
+  
+}
+
+.yellow {
+    border: 10px inset rgb(234, 237, 21);
+    
+}
+
+.black {
+    border: 10px solid rgb(0,0,0);
+
+}
+
+p {
+    font-size: 25px;
+}
+
+p span {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFA500;
+    border: 4px solid #FF4500;
+}
+
+p q {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFA500;
+    border: 4px solid #FF4500;
+
+}
+
+p a{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFA500;
+    border: 4px solid #FF4500;
+}
+
+
+.abzac p:first-child {
+    width: 400px;
+    text-align: center;
+    border: 4px solid #FF7F50;
+}
+
+.abzac p:nth-child(2) {
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.5) inset;
+    overflow: auto;
+}
+
+.abzac p:last-child {
+    border: 2px solid #FF6347;
+}
+
+#qqq {
+    border-left: 2px solid brown;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid darkblue;
+    border-top: 2px solid orange;
+}
+
+
+#www {
+    border-left: 4px solid #007BA7;
+    border-right: 4px solid #007BA7;
+}
+
+#eee {
+    border-top: 4px solid rgb(229 43 80);
+    border-left: 4px dashed  aqua;
+    border-bottom: 4px dashed  aqua;
+    border-right: 4px dashed  aqua;
+}
+
+#rrr {
+    border: 1px dotted orange;
+}
+
+#ttt {
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+    border-right: 2px dashed darkred;
+    border-left: 2px dashed darkred;
+}
+
+#yyy {
+    border: 4px double #B3446C;
+}
+
+#aaa {
+    border-top: 1px dashed #808000;
+    border-bottom: 3px solid #FF7518;
+}
+
+#sss {
+    border-left: 4px double #CC7722;
+    border-bottom: 4px double #CC7722;
+}
+
+#ddd {
+    border-top: 4px ridge #B5A642;
+    border-right: 4px ridge #B5A642;
+}
+
+#fff{
+    border-bottom: 5px dotted rgb(0,40,0);
+    border-right: 5px dotted rgb(0,40,0);
+    border-left: 5px dotted rgb(0,40,0);
+}
+
+.dop {
+    font-size: 20px;
+    border: 5px dashed red;
+    margin-top: 20px;
+}
+
+.qwe {
+    margin: auto;
+}

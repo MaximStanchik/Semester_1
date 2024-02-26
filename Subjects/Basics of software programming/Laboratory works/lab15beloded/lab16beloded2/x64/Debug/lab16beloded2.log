@@ -1,0 +1,5 @@
+﻿  lab16beloded2.cpp
+C:\Users\nedok\OneDrive\Рабочий стол\лекции\белодед\лабы\lab16beloded\lab16beloded2\lab16beloded2.cpp(39,2): warning C4326: возвращаемый тип "main" должен быть "int", а не "char"
+C:\Users\nedok\OneDrive\Рабочий стол\лекции\белодед\лабы\lab16beloded\lab16beloded2\lab16beloded2.cpp(40,10): warning C4101: j: неиспользованная локальная переменная
+C:\Users\nedok\OneDrive\Рабочий стол\лекции\белодед\лабы\lab16beloded\lab16beloded2\lab16beloded2.cpp(18): warning C4715: Input: значение возвращается не при всех путях выполнения
+  lab16beloded2.vcxproj -> C:\Users\nedok\OneDrive\Рабочий стол\лекции\белодед\лабы\lab16beloded\x64\Debug\lab16beloded2.exe

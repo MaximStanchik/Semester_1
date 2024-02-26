@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание из экзамена</title>
+    <style>
+        .container {
+            justify-content:center;
+            grid-template-columns: 15% 15% 15% 15%; 
+            display: grid;
+            grid-column-gap: 0.1px;
+            grid-template-areas: 
+            'one two three four'
+            'five six seven eight'
+            'nine nine ten eleven';
+            height: 250px;
+            width:500px;
+            margin:10px;
+            grid-gap:10px;
+        }
+
+        div{
+        
+            text-align: center;
+            font-size: 50px;
+            background-color: green;
+            border: 3px solid black;
+        }
+
+        .one {
+            grid-area: one;
+
+        }
+
+        .two {
+            grid-area: two;
+        }
+
+        .three {
+            grid-area: three;
+        }
+
+        .four {
+            grid-area: four;
+        }
+        .five {
+            grid-area: five;
+        }
+        .six {
+            grid-area: six;
+        }
+        .seven {
+            grid-area: seven;
+        }
+        .eight {
+            grid-area: eight;
+        }
+        .nine {
+            grid-area: nine;
+        }
+        .ten {
+            grid-area: ten;
+        }
+        .eleven {
+            grid-area: eleven;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="four">4</div>
+    <div class="five">5</div>
+    <div class="six">6</div>
+    <div class="seven">7</div>
+    <div class="eight">8</div>
+    <div class="nine">9</div>
+    <div class="ten">10</div>
+    <div class="eleven">11</div>
+
+
+
+</body>
+
+</html>

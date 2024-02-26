@@ -1,0 +1,32 @@
+.BLUE {
+    background-color: darkblue;
+    text-align: center;
+    font-size: 1.2em;
+    color:white;
+}
+.OK {
+    background-color: #00BFFF;
+    color:white;
+}
+.ANIME {
+    background-color: purple;
+    color:white;
+}
+.OMG {
+    background-color:green;
+    color:white;
+}
+.LOL {
+    text-align: center;
+}
+table {
+    empty-cells: hide;
+    margin: auto;
+    border-collapse: collapse;
+   }
+
+td {
+    border: 2.5px solid rgb(117, 93, 93);
+    /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+ }
+ 

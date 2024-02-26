@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Ex1.css"?>
+<!DOCTYPE games [
+<!ENTITY writer "Writer: Maxim Stanchik.">
+<!ENTITY lab "LAB_11">
+<!ELEMENT games (retro+,footer)>
+<!ELEMENT retro  (game, description, year)>
+<!ELEMENT game (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT footer (#PCDATA)>
+]>
+
+<games>
+    <retro>
+        <game>Fallout</game>
+        <description>Fallout (рус. Выпадение радиоактивных осадков, так же рус. Возрождение МФА: [fʲəɫaʊt]) — серия постапокалиптических компьютерных ролевых игр, выпущенных компаниями Interplay Entertainment, Black Isle Studios, Micro Forté, Bethesda Softworks и Obsidian Entertainment[1][2]. Действие происходит после ядерной войны на территории США, которая превратилась в радиоактивную пустыню и охвачена анархией.
+        Хотя события и помещены в далёкое будущее, спустя десятки лет после ядерного конфликта, Fallout отличается характерным ретрофутуристическим стилем, вдохновлённым массовой культурой 40—50-х годов XX века. Игры основной серии, обладая большим открытым миром, позволяют свободно исследовать разнообразные локации и решать задачи различными способами.</description>
+        <year> Игра выпущенa в 1997</year>
+        </retro>
+    <retro>
+        <game>CS 1.6</game>
+        <description>Counter-Strike, также известная как Half-Life: Counter-Strike и Counter-Strike 1.6 — многопользовательская компьютерная игра в жанре шутера от первого лица, разработанная и выпущенная для Windows американской компанией Valve. Первоначально Counter-Strike представляла собой пользовательскую модификацию к игре Half-Life, разработанную энтузиастами Минем Ле и Джессом Клиффом в 1999 году; в дальнейшем Valve наняла обоих разработчиков на работу и приобрела у них права интеллектуальной собственности на игру, в 2000 году выпустив доработанную версию Counter-Strike уже как самостоятельную игру. Игра была в разные годы портирована на ряд платформ, в том числе macOS, Linux и Xbox.</description>
+        <year>Игра выпущенa 8 ноября 2000</year>
+    </retro>
+    <retro>
+        <game>Quake 3 Arena</game>
+        <description>Quake III Arena — компьютерная игра в жанре шутера от первого лица, разработанная студией id Software и изданная компанией Activision в 1999 году. В отличие от предыдущих игр серии, Quake III Arena ориентирована на многопользовательский режим, и не имеет полноценной одиночной кампании.</description>
+        <year>Игра выпущена 2 декабря 1999 года</year>
+    </retro>
+    <retro>
+        <game>World of warcraft</game>
+        <description>World of Warcraft (WoW; с англ. — «Мир военного ремесла») — массовая многопользовательская ролевая онлайн-игра, разработанная и издаваемая компанией Blizzard Entertainment. Действие World of Warcraft происходит в фэнтезийной вселенной Warcraft. Игра тесно связана с предыдущими играми серии — стратегиями в реальном времени; каждый игрок управляет одним персонажем и может взаимодействовать с другими игроками в общем виртуальном мире. Игра была анонсирована в 2001 году и выпущена 23 ноября 2004 года, к 10-летней годовщине Warcraft: Orcs and Humans.</description>
+        <year>Игра выпущена  23 ноября 2004</year>
+    </retro>
+    <footer>&writer;&lab;</footer>
+</games>

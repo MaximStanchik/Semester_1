@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="small.css" media="(max-width:1280px)">
+    <style>
+        @import url("medium.css") (max-width: 768px);
+
+        @media (max-width: 480px) {
+    .art4 {
+        flex-direction: column;
+    }
+    .art4 figcaption {
+        color: red;
+    }
+    .art4 figure {
+        width: 300px;
+        margin: 15px auto;
+    }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+video {
+    width: 200px;
+}
+
+audio {
+    width: 100%;
+}
+
+.ch {
+    width: 30%;
+}
+
+#burger {
+    display: none;
+}
+
+[for="burger"] {
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    right: 20px;
+    display: none;
+}
+
+.gallery {
+    display: flex;
+}
+
+
+
+
+@media (max-width:500px) {
+    [for="burger"] {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    input:checked ~ nav {
+        display: block;
+    }
+    section {
+        flex-direction: column;
+    }
+    .ch > video , .ch > p, .ch > audio{
+        width: 80vw;
+    }
+}
+/*
+@media (min-width:460px) and (max-width:760px) {
+    footer h1 {
+        color:red;
+   }
+}
+*/
+@media (max-width:1280px) {
+    .art4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .art4 img {
+        width: 100vw;
+    }
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+img {
+    width: 200px;
+    height:300px;
+}
+
+
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.art4 {
+    flex-direction: column;
+}
+
+.art4 {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.art4 figure {
+    width: 300px;
+    margin: 15px auto;
+}
+
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.title {
+    display: inline-flex;
+    flex: 1 1 100%;
+    /* margin: 0 auto; */
+    padding-left: 15px;
+    background-color:white;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.title h2 {
+    display: inline-flex;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px 10px 15px;
+}
+.menu li {
+    margin: 8px 1rem;
+}
+#menu-toggle, .menu-button-container {
+    visibility: hidden;
+}
+@media (max-width: 700px) {
+    .title {
+        position: sticky;
+    }
+    .menu-button-container {
+        display: flex;
+        visibility: visible;
+        font-size: 8vh;
+        justify-content: center;
+        padding-right: 10px;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        margin-top: 70px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        color:black;
+    }
+    .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0 0;
+        width: 100%;
+        background-color: white;
+    }
+    .menu > li:last-child {
+        border-bottom: none;
+    }
+    .menu a {
+        font-size: 24px;
+        color: black;
+        border-color:2px solid black;
+    }
+    #menu-toggle:checked~.menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.ZAG{
+    text-align: center;
+}
+
+.ch video {
+    width: 300px;
+    height: 300px;
+}
+
+    </style>
+</head>
+<body>
+
+
+
+    <div class="cont">
+        <div class="title">
+            <h2 class="ZAG">Задание 2</h2>
+            <input id="menu-toggle" type="checkbox">
+            <label class='menu-button-container' for="menu-toggle">
+                &#8801;
+            </label>
+            <ul class="menu">
+                <li><a href="#1">Ячейка 1</a></li>
+                <li><a href="#2">Ячейка 2</a></li>
+                <li><a href="#3">Ячейка 3</a></li>
+            </ul>
+        </div>
+
+
+    <header class="container">
+        <h2 class="ZAG">Задание 1</h2>
+        <section>
+            <article class="ch">
+                <video src="1.MOV.mp4" loop controls></video>
+                <video src="2.MOV.mp4" loop controls></video>
+                <video src="3.MOV.mp4" loop controls></video>
+            </article>
+            <article class="ch">
+                <p>Flexbox разметка в CSS даёт один из наиболее эффективных способов расстановки, выравнивания и распределения места между элементами внутри контейнера, даже если их размер неизвестен или динамичен (собственно, по этому его и называют flex, от слова flexible, что по-английски имеет двойственное значение — гибкий и уступчивый, что очень сочетается с моделью поведения flexbox).</p>
+            </article>
+            <article class="ch">
+                <audio src="Rammstein - Du hast.mp3" controls></audio>
+                <audio src="Rammstein - Ich Will.mp3" controls></audio>
+                <audio src="Rammstein - Mein Herz Brennt.mp3" controls></audio>
+            </article>
+        </section>
+    </header>
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    <article class="art4">
+        <figure>
+            <figcaption>Cat 1</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat1.jpg">
+        </figure>
+        <figure>
+            <figcaption>Cat 2</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat2.jpg">
+        </figure>
+        <figure>
+            <figcaption>Cat 3</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat3.jpg">
+        </figure>
+        <figure>
+            <figcaption>Cat 4</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat4.jpg" >
+        </figure>
+        <figure>
+            <figcaption>Cat 5</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat5.jpg" >
+        </figure>
+        <figure>
+            <figcaption>Cat 6</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat6.jpg" >
+        </figure>
+        <figure>
+            <figcaption>Cat 7</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat7.jpg" >
+        </figure>
+        <figure>
+            <figcaption>Cat 8</figcaption>
+            <img src="D:\User\Desktop\Everythin' for BSTU\Computer Markup Language\LBR_10\images\cat8.jpg" >
+        </figure>
+    </article>
+</body>
+</html>

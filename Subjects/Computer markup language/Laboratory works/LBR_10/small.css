@@ -1,0 +1,8 @@
+/*1280px — зеленый, через тег link*/
+
+img {
+    width: 80vw;
+}
+.art4 figcaption {
+color: green;
+}

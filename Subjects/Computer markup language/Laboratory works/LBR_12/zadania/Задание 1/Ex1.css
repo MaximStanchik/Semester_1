@@ -1,0 +1,34 @@
+games{
+    display: block;
+    width: 700px;
+    text-align: center;
+}
+retro{
+    display: inline-block;
+    margin-bottom: 10%;
+    position: relative;
+    left: 50%;
+}
+game{
+    display: block;
+    margin-top: 10px;
+    color: white;
+    background-color: #FF4500;
+    border-radius: 30px;
+}
+description{
+    display: block;
+    margin-top: 10px;
+    border: 5px solid #FF4500;
+    color:#FF4500;
+    background-color: black;
+}
+year{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FF4500;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}

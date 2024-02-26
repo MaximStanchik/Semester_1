@@ -1,0 +1,3 @@
+﻿  lab17beloded2.cpp
+C:\Users\nedok\OneDrive\Рабочий стол\лекции\белодед\лабы\lab17beloded\lab17beloded2\lab17beloded2.cpp(24,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab17beloded2.vcxproj -> C:\Users\nedok\OneDrive\Рабочий стол\лекции\белодед\лабы\lab17beloded\x64\Debug\lab17beloded2.exe

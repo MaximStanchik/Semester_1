@@ -1,0 +1,221 @@
+@import'_perem.scss';
+%input-style{
+  background-color:white;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+}
+
+
+//@function setFontSize() {
+ // $h-size: $font-size * 1.4;
+ // @return $h-size;
+//}
+
+
+
+@function font-size($h){
+
+  @if($h=='h1'){
+    $font-size: 10px;
+    @return $font-size;
+  }
+  @else if($h=='h2'){
+    $font-size: 20px;
+    @return $font-size;
+  }
+  @else if($h=='h3'){
+    $font-size: 30px;
+    @return $font-size;
+  }
+  @else if($h=='h4'){
+    $font-size: 45px;
+    @return $font-size;
+ }
+ @else if($h=='h5'){
+  $font-size: 50px;
+  @return $font-size;
+ }
+ @else if($h=='h6'){
+  $font-size: 60px;
+  @return $font-size;
+ }
+}
+h1+ div ~p{
+    font-size:font-size('h1');
+}
+h2+ div ~p{
+      font-size:font-size('h2');
+}
+h3+ div ~p{
+      font-size:font-size('h3');
+}
+h4+ div ~p{
+      font-size:font-size('h4');
+}
+h5+ div ~p{
+  font-size:font-size('h5');
+}
+h6+ div ~p{
+  font-size:font-size('h6');
+}
+
+
+
+%input-focus{
+  border: none;
+        border-bottom: 3px solid $grey;
+        border-radius: 0;
+}
+%label{
+      text-align: left;
+        display: inline-block;
+        width: 180px;
+        margin-left: 5px;
+}
+@mixin padding-top($property){
+  padding-top: $property;
+}
+@mixin text-align($property){
+  text-align: $property;
+}
+@function grid($col,$permit){
+  @if($permit or false ==true){
+  @return $col*100% (1-$col)*100%;
+  }
+  @else{
+    @return 50% 50%
+  }
+}
+@function part-width($property){
+  @return 100%/$property;
+}
+body{
+ width:100%;
+ height:100%;
+ overflow-x:hidden
+}
+.container {
+  font-family: 'Prompt',sans-serif;
+  display: grid;
+  grid-template-columns: grid(0.7, true);
+  grid-template-rows: 17% 70% 13%;
+  grid-template-areas:
+    "header header "
+    "article aside"
+    "footer footer";
+    height: 115vh;
+
+    header{
+      display: inline-block;
+      background-color: #FF4500;
+      border-radius:0 0 10px 10px;
+      width: 99.3%;
+      .logo{
+        position: relative;
+        top: 2.5%;
+        left: 70px;
+        height: 94%;
+        width: 10%;
+        border-radius: 100%;
+      }
+    nav{
+      ul{
+        display: inline-block;
+        position: absolute;
+        top: -3%;
+        width: 80%;
+        right: -15%;
+      }
+      li{
+        display: inline-block;
+        margin:3.5% ;
+        padding: 25px;
+        background-color:red;
+        border-radius: 15px;
+        a{
+          text-decoration: none;
+          color: $header-text;
+        }
+      }
+      li:hover{
+        background-color:black;
+      }
+    } 
+  }
+    article{
+      .p{
+        display: flex;
+        gap: 5px;
+        padding-right: 10px;
+      }
+      vertical-align: top;
+      h2{
+        text-align: center;
+      }
+      color: $article-color;
+      p{
+        padding: 10px;
+        /*font-size:font-size('h2');*/
+        width: part-width(3);
+        display: inline-block;
+        border: 2px solid #FF4500;
+        border-radius: 10px;
+      }
+      .galery{
+        text-align: center;
+      }
+      h3{
+        text-align: center;
+      }
+    }
+    form{
+      border-radius: white;
+      background-color:#FF4500;
+      .p1{
+        @include padding-top(15px);
+      }
+      .p2{
+        padding-bottom: 10px;
+      }
+      label{
+        @extend %label;
+
+      }
+      input{
+        @extend %input-style;
+      }
+      input:focus{
+        @extend %input-focus;
+      }
+    }
+    h4{
+      color: #FF4500;
+      @include text-align(center);
+    }
+    .vakans{
+      div{
+        display:flex;
+        margin-bottom: 20px;
+        color: #FF4500;
+        text-align: center;
+        p{
+          position: relative;
+          left: 5px;
+          text-align: left;
+          font-size: font-size('h4');
+          width: 65%;
+        }
+      }
+      img{
+        width: 150px;
+        height: 150px;
+      }
+    }
+    footer{
+      position: relative;
+      top: 60px;
+      text-align: center;
+      margin: auto;
+    }
+}

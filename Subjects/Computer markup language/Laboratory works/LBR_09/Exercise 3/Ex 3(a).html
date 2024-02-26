@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 3 (а)</title>
+    <style>
+        .container {
+            height: 700px;
+            width: 1500px;
+            display: inline-grid;
+            margin: auto;
+            grid-template-columns: 15% 60% 25%;
+            grid-template-rows: 30% 50% 20%;
+            grid-gap: 5px;
+
+            grid-template-areas:
+
+                'one two two'
+                'one three four'
+                'one three four'
+                'five five five'
+
+            ;
+        }
+
+        * {
+            margin-top: 2.5px;
+            margin-bottom: 2.5px;
+        }
+
+        .one {
+            border: solid 2px black;
+            background-color: lime;
+            grid-area: one;
+            /*Тут мы задаем имя объекту*/
+        }
+
+        .two {
+            border: solid 2px black;
+            grid-area: two;
+            background-color: lime;
+        }
+
+        .three {
+            border: solid 2px black;
+            grid-area: three;
+            background-color: lime;
+        }
+
+        .four {
+            border: solid 2px black;
+            grid-area: four;
+            background-color: lime;
+        }
+
+        .five {
+            border: solid 2px black;
+            grid-area: five;
+            background-color: lime;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <p class="one">
+        <a href="http://getskeleton.com">Skeleton.com</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">GRID
+            CSS</a>
+        <a href="https://tpverstak.ru/grid/">Шпаргалка</a>
+    </p>
+    <p class="two">Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему сеток в CSS. Гриды подойдут и
+        для верстки основных областей страницы, и небольших элементов пользовательского интерфейса. Эта статья даёт
+        общее представление о грид-раскладке и новой терминологии, которая является частью спецификации CSS Grid Layout
+        Level 1. Более подробно показанные возможности будут описаны описаны далее в руководстве.</p>
+    <p class="three">Грид представляет собой пересекающийся набор горизонтальных и вертикальных линий, образующих
+        колонки и строки. Элементы могут быть помещены в грид в пределах линий этих колонок и строк.</p>
+    <p class="four">При задании размеров явного грида или при определении размеров автоматически создаваемых колонок или
+        строк нам может понадобиться задать трекам минимальный размер, но при этом быть уверенными, что они треки
+        растянутся, чтобы вместить весь добавленный в них контент. Например, мне нужно, чтобы строки никогда не
+        становились меньше 100 пикселей, но если контент занимает 300 пикселей в высоту, я бы хотел растянуть строку на
+        эту высоту.</p>
+    <p class="five">Надеюсь вы нашли эту информацию полезной</p>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="451.39999" x2="383.39999" y1="451.39999" x1="315.39999" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="452.04431" x2="316.06356" y1="418.86726" x1="315.59628" stroke="#000" fill="none"/>
+  <line transform="rotate(-0.123188, 381.717, 434.755)" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="452.04431" x2="381.95039" y1="417.46541" x1="381.4831" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="420.2691" x2="268.86804" y1="420.2691" x1="315.59628" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="417.93269" x2="428.67863" y1="417.46541" x1="381.4831" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="369.33532" x2="314.66172" y1="420.2691" x1="269.8026" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="367.93347" x2="379.61397" y1="417.46541" x1="428.21134" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="368.40076" x2="267.93347" y1="368.40076" x1="315.59628" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_9" y2="367.46619" x2="423.53852" y1="367.93347" x1="379.61397" stroke="#000" fill="none"/>
+  <line transform="rotate(-0.146813, 307.029, 321.517)" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_10" y2="275.09123" x2="345.19465" y1="367.94225" x1="268.86404" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_11" y2="274.47694" x2="344.87914" y1="366.53163" x1="422.60395" stroke="#000" fill="none"/>
+ </g>
+</svg>

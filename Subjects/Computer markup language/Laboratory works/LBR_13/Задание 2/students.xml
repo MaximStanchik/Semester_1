@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students>
+    <student>
+        <name>Student 1</name>
+        <kyar>10</kyar>
+        <opi>9</opi>
+        <oaip>3</oaip>
+        <alotsvm>4</alotsvm>
+        <fizra>8</fizra>
+        <belmova>8</belmova>
+        <angl>6</angl>
+        <matanaliz>9</matanaliz>
+    </student>
+    <student>
+        <name>Student 2</name>
+        <kyar>4</kyar>
+        <opi>2</opi>
+        <oaip>1</oaip>
+        <alotsvm>8</alotsvm>
+        <fizra>10</fizra>
+        <belmova>2</belmova>
+        <angl>5</angl>
+        <matanaliz>7</matanaliz>
+    </student>
+    <student>
+        <name>Student 3</name>
+        <kyar>4</kyar>
+        <opi>7</opi>
+        <oaip>9</oaip>
+        <alotsvm>5</alotsvm>
+        <fizra>8</fizra>
+        <belmova>3</belmova>
+        <angl>9</angl>
+        <matanaliz>7</matanaliz>
+    </student>
+    <student>
+        <name>Student 4</name>
+        <kyar>1</kyar>
+        <opi>2</opi>
+        <oaip>3</oaip>
+        <alotsvm>4</alotsvm>
+        <fizra>10</fizra>
+        <belmova>5</belmova>
+        <angl>6</angl>
+        <matanaliz>9</matanaliz>
+    </student>
+    <student>
+        <name>Student 5</name>
+        <kyar>10</kyar>
+        <opi>1</opi>
+        <oaip>2</oaip>
+        <alotsvm>3</alotsvm>
+        <fizra>4</fizra>
+        <belmova>5</belmova>
+        <angl>6</angl>
+        <matanaliz>7</matanaliz>
+    </student>
+    <student>
+        <name>Student 6</name>
+        <kyar>10</kyar>
+        <opi>10</opi>
+        <oaip>10</oaip>
+        <alotsvm>10</alotsvm>
+        <fizra>10</fizra>
+        <belmova>10</belmova>
+        <angl>10</angl>
+        <matanaliz>10</matanaliz>
+    </student>
+    <student>
+        <name>Student 7</name>
+        <kyar>10</kyar>
+        <opi>4</opi>
+        <oaip>1</oaip>
+        <alotsvm>7</alotsvm>
+        <fizra>7</fizra>
+        <belmova>7</belmova>
+        <angl>8</angl>
+        <matanaliz>3</matanaliz>
+    </student>
+</students>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="scss/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    .photo{
+      margin: 30px;
+      width:200px;
+      height:200px;
+    }
+    .color {
+      color: white;
+    }
+
+    .server {
+      width: 200px;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    header {
+      background-image: url(Photo/backnav.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 115%;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+    <header style="grid-area: header">
+      <img src="Photo\logo1.jpg" alt="" class="logo" />
+      <nav>
+        <ul>
+          <li><a class="server" href="https://cs-monitor.ru/">кс 1.6</a></li>
+          <li>
+            <a class="server" href="https://www.gs4u.net/ru/quake3/">Quake 3 Arena</a>
+          </li>
+          <li>
+            <a class="server" href="https://ds-servers.com/servers/goldsrc.valve-1.html">халф лайф</a>
+          </li>
+          <li><a class="server" href="https://monitoringminecraft.ru/">майнкрафт</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article style="grid-area: article">
+
+
+      
+
+      <h3 class="name1">Инфа об играх</h3>
+
+      <div class="p">
+        <p id="p1">
+          Quake III Arena — компьютерная игра в жанре шутера от первого лица, разработанная студией id Software и
+          изданная компанией Activision в 1999 году. В отличие от предыдущих игр серии, Quake III Arena ориентирована на
+          многопользовательский режим, и не имеет полноценной одиночной кампании.
+        </p>
+        <p id="p2">
+          Counter-Strike, также известная как Half-Life: Counter-Strike и Counter-Strike 1.6 — многопользовательская
+          компьютерная игра в жанре шутера от первого лица, разработанная и выпущенная для Windows американской
+          компанией Valve.
+        </p>
+        <p id="p3">
+          Fallout 2 (рус. Выпадение радиоактивных осадков 2) — культовая компьютерная ролевая игра о мире, пережившем
+          ядерную войну, разработанная Black Isle Studios и изданная Interplay Productions в 1998 году. Игровой движок
+          Fallout 2 претерпел мало изменений по сравнению с Fallout, вследствие чего игровой процесс мало чем отличается
+          от предшественника.
+        </p>
+      </div>
+
+
+
+    
+      <h4 class="name_galery">Обложки ретро-игр</h4>
+
+      <section class="galery">
+        <img class="photo" src="Photo\Counter-Strike_Box.jpg" alt="" />
+        <img class="photo" src="Photo\half_life.jpg" alt="" />
+        <img class="photo" src="Photo\Fallout2front.WEBP" alt="" />
+        <img class="photo" src="Photo\Quake3arena.jpg" alt="" />
+      </section>
+    </article>
+
+
+
+    <aside style="grid-area: aside">
+      <form action="">
+        <p class="p1">
+          <label for="name">Имя</label>
+          <input type="text" id="name" />
+        </p>
+        <p>
+          <label for="surname">Фамилия</label>
+          <input type="text" id="surname" />
+        </p>
+        <p>
+          <label for="gender">Ваш пол</label>
+          <input type="radio" name="gender" id="gender" />Мужской
+          <input type="radio" name="gender" id="gender" />Женский
+        </p>
+
+        <p>
+          <label>Телефон</label>
+          <input type="tel" value="+375 " pattern="+375[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" />
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </p>
+        <p class="p2">
+          <label for=""></label>
+          <input type="submit" value="Регистрация" />
+          <input type="reset" value="Отмена" />
+        </p>
+      </form>
+
+
+      <h4>Полезная инфа для крутых пацанов</h4>
+      <div class="vakans">
+
+        <div class="d1">
+          <img src="Photo\dust2.jpg" alt="" />
+          <p>
+            Вы можете стать админом. Стоить админка будет 300руб. Чтобы ее получить, нужно наиграть на сервере не менее
+            3 недель и не иметь нарушений правил сервера.
+          </p>
+        </div>
+        <div class="d2">
+          <img src="Photo\klesk.jpg" alt="" />
+          <p>
+            Вы можете стать владельцем сервера! Для этого напишите на почту главному админу чтобы узнать подробности.
+          </p>
+        </div>
+      </div>
+    </aside>
+    <footer class="color" style="grid-area: footer">
+      <p>Станчик Максим Андреевич +375298367670 maximpetrov420@gmail.com</p>
+    </footer>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>

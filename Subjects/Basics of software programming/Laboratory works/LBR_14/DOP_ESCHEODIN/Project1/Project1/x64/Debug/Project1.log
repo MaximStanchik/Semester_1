@@ -1,0 +1,7 @@
+﻿  APOCHEMY.cpp
+D:\Basics of software programmin'\LBR_14\DOP_ESCHEODIN\Project1\Project1\APOCHEMY.cpp(7,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\Basics of software programmin'\LBR_14\DOP_ESCHEODIN\Project1\Project1\APOCHEMY.cpp(25,20): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\Basics of software programmin'\LBR_14\DOP_ESCHEODIN\Project1\Project1\APOCHEMY.cpp(30,28): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\Basics of software programmin'\LBR_14\DOP_ESCHEODIN\Project1\Project1\APOCHEMY.cpp(36,23): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+D:\Basics of software programmin'\LBR_14\DOP_ESCHEODIN\Project1\Project1\APOCHEMY.cpp(37,22): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+  Project1.vcxproj -> D:\Basics of software programmin'\LBR_14\DOP_ESCHEODIN\Project1\x64\Debug\Project1.exe

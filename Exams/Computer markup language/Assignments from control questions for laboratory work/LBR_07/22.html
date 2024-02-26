@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22</title>
+    <style>
+        li{
+            display:inline-block;
+            border:solid 3px black;
+            background-color: lime;
+            width: 150px;
+            height:150px;
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+        }
+        .second{
+    display: none;
+    position: relative;
+    top: 100%;
+}
+li:hover .second{
+    display: block;
+}
+.nav ul {
+    list-style: none;
+    position: absolute;
+}
+.nav>ul>li{
+    float:left;
+    position: relative;
+    width: 180px;
+}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://it.belstu.by/">Выпадающее меню</a>
+            <ul class="second">
+                <li><a id="list" href="https://isit.belstu.by/">Кафедра ИСиТ</a></li>
+                <li><a id="list" href="https://www.belstu.by/fakultety/fit/ivd">Кафедра ИиВД</a></li>
+                <li><a id="list" href="https://www.belstu.by/fakultety/fit/pi">Кафедра ПИ</a></li>
+            </ul>
+        </li>
+        <li><a href="https://www.belstu.by/">Ссылка 1</a></li>
+        <li><a href="https://isit.belstu.by/">Ссылка 2</li>
+        <li><a href="https://www.belstu.by/fakultety/fit/pi">Ссылка 3</a></li>
+    </ul>
+</body>
+</html>

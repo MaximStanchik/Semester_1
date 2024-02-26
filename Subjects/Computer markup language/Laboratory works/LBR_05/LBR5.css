@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Exo2";
+    src: url("fonts/Exo2.ttf");
+}
+.AAA { 
+    font-family: "Exo2";
+    src: url("fonts/Exo2.ttf");
+    font-weight: 1000;
+    font-size: large;
+}
+.BBB { 
+    font-family: "Exo2";
+    src: url("fonts/Exo2.ttf");
+    font-weight: 600;
+    font-size: medium;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    width: 50p;
+    background-color: rgb(105, 104, 15)
+}
+.CCC { 
+    font-family: "Exo2";
+    src: url("fonts/Exo2.ttf");
+    font-weight: 600;
+    font-size: medium;
+    background-color: rgb(199, 199, 12)
+}
+
+.NNN {
+text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    }
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #text{
+    font-size: 36px;
+}
+    </style>
+</head>
+<body>
+    <svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs> 
+            <path id="MyPath" fill="none" stroke="red" 
+                  d="M20 80 C 40 10, 65 10, 95 80 S 150 150, 330 40 " />
+            </defs>
+            <use xlink:href="#MyPath"/>
+            <text x="10" y="-1" id="text">
+              <textPath href="#MyPath">
+                S VG —ОЧЕНЬ КРУТО!!!
+              </textPath>
+          </text>
+    </svg>
+    <svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="25px" cy="25px" r="25px" fill="blue"/>
+        <rect x="60px" y="0" width="50px" height="50px" fill="red"/>
+        <ellipse rx="40px" ry="25px"  cx="160px" cy="25" fill="green"/>
+        <polygon points="235 0, 260 50, 210 50" fill="yellow"/>
+        <polyline points="0 55, 140 55, 90 70, 270 70" stroke="purple" fill="none" stroke-width="1 "/>
+    </svg>
+</body>
+</html>

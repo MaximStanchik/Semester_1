@@ -1,0 +1,23 @@
+
+.art4 figcaption {
+    color:blue;
+}
+
+
+
+
+/*
+@media (max-width: 1280px) {
+    img {
+        width: 80vw;
+    }
+    .art4 figcaption {
+    color: green;
+}
+}
+@media (max-width:768px) {
+    .art4 figcaption {
+        color:blue;
+    }
+}
+*/

@@ -1,0 +1,16 @@
+img{
+   width:200px;
+   height:200px;
+}
+.float{
+   display:flex;
+}
+
+figure {
+   padding: 20px;
+   display: block;
+   width: 200px;
+   float: left;
+   margin: 0 100px 100px 0;
+   text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="grad1" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0" stop-color="green">
+                        <animate attributeName="stop-color" from="yellow" to="green" dur="7s" />
+                        </stop>
+                    <stop offset="1" stop-color="orange">
+                        <animate attributeName="stop-color" from="yellow" to="orange" dur="7s"/>
+                        </stop>
+            </linearGradient>
+        </defs>
+        <circle cx="25px" cy="25px" r="25px" fill="blue">
+            </circle>
+        <rect x="60px" y="0" width="50px" height="50px" fill="red" >
+            <animate attributeName="stroke" dur="3s" from="red" to="green" begin="0s" repeatCount="indefinite"></animate>
+            </rect>
+        <ellipse rx="40px" ry="25px"  cx="160px" cy="25" fill="green">
+            <animate begin="click" dur="3s" attributeName="fill" from="green" to="purple"/>
+        </ellipse>
+        <polygon  class="tria" points="235 0, 260 50, 210 50" fill="url(#grad1)">
+            <animate attributeName="stroke" from="white" to="brown" begin="mouseover" dur="5s"/>
+            <animate />
+        </polygon>
+        <polyline points="0 55, 140 55, 90 70, 270 70" stroke="purple" fill="none" stroke-width="1 ">
+        </polyline>
+    </svg>
+</body>
+</html>

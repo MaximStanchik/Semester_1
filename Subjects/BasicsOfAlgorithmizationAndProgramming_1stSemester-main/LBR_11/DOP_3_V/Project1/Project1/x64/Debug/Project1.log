@@ -1,0 +1,4 @@
+﻿  azaza.cpp
+D:\Basics of software programmin'\LBR_11\DOP_3_V\Project1\Project1\azaza.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Basics of software programmin'\LBR_11\DOP_3_V\Project1\Project1\azaza.cpp(61,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project1.vcxproj -> D:\Basics of software programmin'\LBR_11\DOP_3_V\Project1\x64\Debug\Project1.exe

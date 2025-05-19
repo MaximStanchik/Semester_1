@@ -1,0 +1,3 @@
+﻿  dopchik.cpp
+D:\Basics of software programmin'\LBR_12\DOP1_1\Project1\Project1\dopchik.cpp(24,4): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Project1.vcxproj -> D:\Basics of software programmin'\LBR_12\DOP1_1\Project1\x64\Debug\Project1.exe

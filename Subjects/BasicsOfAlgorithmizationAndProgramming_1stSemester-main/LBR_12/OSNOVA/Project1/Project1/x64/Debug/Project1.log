@@ -1,0 +1,3 @@
+﻿  RESHENIE.cpp
+D:\Basics of software programmin'\LBR_12\OSNOVA\Project1\Project1\RESHENIE.cpp(7,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Project1.vcxproj -> D:\Basics of software programmin'\LBR_12\OSNOVA\Project1\x64\Debug\Project1.exe
